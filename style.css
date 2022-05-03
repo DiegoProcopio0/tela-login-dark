@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body: #8338ec;
+    --main: #201b2c;
+    --title-left: #77ffc0;
+    --title-right: #00ff88;
+    --input: #514869;
+    --color-input: #f0ffde;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: var(--body);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white
+}
+
+
+
+.main {
+    background: var(--main);
+
+    width: 70vw;
+    height: 70vh;
+
+    border-radius: .5rem;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.55);
+
+    display: flex;
+ 
+}
+.animate__animated.animate__backInLeft {
+    --animate-duration: 1s;
+  }
+
+.left-login {
+    margin: auto 0 auto 2.5rem;;
+    width: 50%;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.left-login h1, h2 {
+    color: var(--title-left);
+
+    font-size: 2rem; 
+}
+
+.right-login {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-login .card-login {
+    width: 80%;
+    height: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 2rem 1.5rem;
+
+    background: #2f2841;
+    
+    border-radius: .5rem;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
+}
+
+
+.right-login .card-login h1 {
+    color: var(--title-right);
+    margin: 0;
+}
+
+.right-login .card-login .text-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: .8rem 0;
+
+    width: 90%;
+
+}
+
+.right-login .card-login .text-field input {
+    width: 100%;
+
+    border-radius: .6rem;
+    border: none;
+    padding: .9rem;
+
+    background: var(--input);
+    color: var(--color-input);
+
+    font-size: 12pt;
+
+    outline: none;
+
+    margin-bottom: .8rem;
+}
+
+.right-login .card-login .text-field label {
+    color: var(--color-input);
+    margin-bottom: .8rem;
+}
+
+button {
+    margin-top: .8rem;
+
+    width: 100%;
+
+	background-color: #5cbf2a;
+	border-radius: .6rem;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+
+    transition: filter 0.2s;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+        

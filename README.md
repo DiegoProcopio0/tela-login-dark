@@ -9,8 +9,6 @@
 
 Esse projeto é uma tela de login de usuários.
 
-<br>
-
 ## Images do projeto
 
 Desktop
